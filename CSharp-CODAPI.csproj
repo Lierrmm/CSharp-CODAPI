@@ -5,11 +5,37 @@
     <RootNamespace>CSharp_CODAPI</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Call of Duty API</Title>
+    <Authors>Liam Gaskell</Authors>
+    <Description>API wrapper for the call of duty API</Description>
+    <PackageProjectUrl>https://codapi.dev</PackageProjectUrl>
+    <PackageIcon>android-chrome-512x512.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Lierrmm/CSharp-CODAPI</RepositoryUrl>
+    <PackageTags>cod,call of duty, api, c#, vanguard, modern warfare, black ops, warzone, cold war </PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>symbols.nupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="E:\cod\codapi\public\android-chrome-512x512.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="RestSharp" Version="108.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

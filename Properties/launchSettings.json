@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CSharp-CODAPI": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

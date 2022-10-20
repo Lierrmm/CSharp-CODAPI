@@ -1,6 +1,6 @@
 [![https://www.github.com/sponsors/lierrmm](https://img.shields.io/badge/github-donate-teal.svg)](https://www.github.com/sponsors/lierrmm)
 [![https://www.paypal.me/liammm](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/liammm)
-[![https://www.nuget.org/packages/CSharp-CODAPI](https://img.shields.io/nuget/v/CSharp-CODAPI?style=plastic)](https://www.nuget.org/packages/CSharp-CODAPI)
+[![https://www.nuget.org/packages/CSharp-CODAPI](https://img.shields.io/nuget/v/CSharp-CODAPI)](https://www.nuget.org/packages/CSharp-CODAPI)
 
 ![](https://github.com/Lierrmm/Node-CallOfDuty/blob/master/logo.png?raw=true)
 

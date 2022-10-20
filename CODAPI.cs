@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace CSharp_CODAPI
 {
-    internal class API
+    public static class CODAPI
     {
+        public static bool login(string ssoToken) => Http.login(ssoToken);
+        public static MW mw = new();
     }
 }

@@ -17,6 +17,9 @@
     <NeutralLanguage>en</NeutralLanguage>
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>symbols.nupkg</SymbolPackageFormat>
+    <FileVersion>1.0.0.1</FileVersion>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <Version>$(VersionPrefix)</Version>
   </PropertyGroup>
 
   <ItemGroup>

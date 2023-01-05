@@ -39,6 +39,13 @@ namespace CSharp_CODAPI
 
             var fakeXSRF = "68e8b62e-1d9d-4ce1-b93f-cbe5ff31a041";
 
+            var defaultParams = apiClient.DefaultParameters;
+
+            foreach (var parameter in defaultParams.ToList())
+            {
+                apiClient.DefaultParameters.RemoveParameter(parameter);
+            }
+
             apiClient.AddDefaultHeaders(new Dictionary<string, string>
             {
                 { "X-XSRF-TOKEN", fakeXSRF },

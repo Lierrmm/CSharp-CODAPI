@@ -2,8 +2,6 @@
 [![https://www.paypal.me/liammm](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/liammm)
 [![https://www.nuget.org/packages/CSharp-CODAPI](https://img.shields.io/nuget/v/CSharp-CODAPI)](https://www.nuget.org/packages/CSharp-CODAPI)
 
-![](https://github.com/Lierrmm/Node-CallOfDuty/blob/master/logo.png?raw=true)
-
 # Call Of Duty API Wrapper
 
 Call of Duty Api is a promised based wrapper for the "private" API that Activision use on the callofduty.com website.
